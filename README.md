@@ -1,1 +1,1 @@
-# PLC-Fault-Predictiction-Algo
+# PLC-Fault-Prediction-Algo
