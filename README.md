@@ -1,1 +1,1 @@
-# PLC-Fault-Prediction-Algo
+# PLC-Fault-Prediction-Neural Network Model
