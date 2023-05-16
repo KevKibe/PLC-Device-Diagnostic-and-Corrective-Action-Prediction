@@ -17,4 +17,7 @@ The dataset contains 5 columns namely:
 ![image](https://github.com/KevKibe/Predictions-on-PLC-data-using-NLP-methods/assets/86055894/b8ad107c-90d2-4437-a80a-0def3977818f)
 
 ![image](https://github.com/KevKibe/Predictions-on-PLC-data-using-NLP-methods/assets/86055894/82ee3402-955f-4d25-b7ab-fecf7a796227)
-
+  
+<b>Index 103<b>
+  
+![image](https://github.com/KevKibe/Predictions-on-PLC-data-using-NLP-methods/assets/86055894/9b1660a8-44a8-447f-8d0c-4512523e7a4c)
