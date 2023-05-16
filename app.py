@@ -38,7 +38,7 @@ tokenizer= tokenizer_from_json(tokenizer_json)
 #loading model
 model = tf.keras.models.load_model('/model/plc_lstm_14_model.h5')
 
-st.title("PLC Device Diagnostic and Corrective Action Prediction')
+st.title("PLC Device Diagnostic and Corrective Action Prediction")
          
 text1=  st.text_input('Enter the PLC')
 text2=  st.text_input('Enter the Model')
