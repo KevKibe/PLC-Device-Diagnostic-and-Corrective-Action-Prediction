@@ -1,5 +1,6 @@
 # Description
 This is an implementation of an LSTM Model used to predict the Diagnostic and Corrective Action of industrial Programming Logic Control(PLC) from a dataset containing that information.<br>
+Live link: https://kevkibe-predictions-on-plc-data-using-nlp-methods-app-jlrdhd.streamlit.app/ 
 
 # Data
 The dataset contains 5 columns namely:
