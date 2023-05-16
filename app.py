@@ -6,7 +6,7 @@ import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
-def generate_text(model, tokenizer, input_text, max_length=40):
+def generate_text(model, tokenizer, input_text, max_length=100):
     generated_text = input_text
     stop_condition = False
     while not stop_condition:
