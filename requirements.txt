@@ -1,1 +1,5 @@
-
+pip
+tensorflow
+numpy
+keras
+streamlit
