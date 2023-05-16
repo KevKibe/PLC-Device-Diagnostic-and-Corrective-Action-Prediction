@@ -30,13 +30,13 @@ def generate_text(model, tokenizer, input_text, max_length=40):
   
   
 #loading tokenizer  
-with open('/model/plc_lstm_tokenizer (2).json', 'r') as f:
+with open('model/plc_lstm_tokenizer (2).json', 'r') as f:
     json_string = f.read()
 
 tokenizer_json = json.loads(json_string)
 tokenizer= tokenizer_from_json(tokenizer_json)
 #loading model
-model = tf.keras.models.load_model('/model/plc_lstm_14_model.h5')
+model = tf.keras.models.load_model('model/plc_lstm_14_model.h5')
 
 st.title("PLC Device Diagnostic and Corrective Action Prediction")
          
