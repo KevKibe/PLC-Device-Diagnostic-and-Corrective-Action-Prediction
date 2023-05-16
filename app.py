@@ -28,15 +28,19 @@ def generate_text(model, tokenizer, input_text, max_length=40):
             generated_text += ' ' + predicted_word
     return generated_text[len(input_text):]
   
-  
-#loading tokenizer  
-with open('model/plc_lstm_tokenizer (2).json', 'r') as f:
-    json_string = f.read()
+@st.cache_resource
+def load_model():
+    with open('model/plc_lstm_tokenizer (2).json', 'r') as f:
+        json_string = f.read()
 
-tokenizer_json = json.loads(json_string)
-tokenizer= tokenizer_from_json(tokenizer_json)
-#loading model
-model = tf.keras.models.load_model('model/plc_lstm_14_model.h5')
+    tokenizer_json = json.loads(json_string)
+    tokenizer = tokenizer_from_json(tokenizer_json)
+
+    model = tf.keras.models.load_model('model/plc_lstm_14_model.h5')
+
+    return tokenizer, model
+
+tokenizer, model = load_model()
 
 st.title("PLC Device Diagnostic and Corrective Action Prediction")
          
